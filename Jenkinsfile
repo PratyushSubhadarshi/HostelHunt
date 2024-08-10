@@ -10,7 +10,7 @@ pipeline {
             steps {
                 script {
                     // Find the container ID or name of the running website container
-                    def websiteContainer = "suspicious_maxwell" // Replace with your actual container name if different
+                    def websiteContainer = "busy_blackburn" // Replace with your actual container name if different
                     
                     // Copy the built files to the website container
                     sh "docker cp . ${websiteContainer}:/app"
